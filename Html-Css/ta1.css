@@ -1,0 +1,57 @@
+.button {
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+}
+
+/* Uber Button */
+.uber {
+    background-color: black;
+    color: white;
+}
+
+/* Amazon Button */
+.amazon {
+    background-color: rgb(255, 216, 20);
+    color: black;
+    border-radius: 20px;
+}
+
+/* GitHub Button */
+.github {
+    background-color: rgb(46, 164, 79);
+    color: white;
+    border-radius: 5px;
+}
+
+/* Bootstrap Start Button */
+.bootstrap-start {
+    background-color: rgb(121, 82, 179);
+    color: white;
+    border-radius: 5px;
+}
+
+/* Bootstrap Download Button */
+.bootstrap-download {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border: 2px solid rgb(108, 117, 125);
+}
+
+/* LinkedIn Main Button */
+.linkedin-main {
+    background-color: rgb(10, 102, 194);
+    color: white;
+    border-radius: 20px;
+}
+
+/* LinkedIn Save Button */
+.linkedin-save {
+    background-color: white;
+    color: rgb(10, 102, 194);
+    border-radius: 20px;
+    border: 2px solid rgb(10, 102, 194);
+}
