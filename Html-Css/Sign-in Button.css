@@ -1,0 +1,38 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* Style for the button */
+.btn {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    font-size: 16px; /* Font size */
+    padding: 10px 20px; /* Padding around the text */
+    border: none; /* Remove the default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect */
+.btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Focus effect */
+.btn:focus {
+    outline: none; /* Remove the default outline */
+    box-shadow: 0 0 5px rgba(72, 180, 97, 0.6); /* Green glow when focused */
+}
